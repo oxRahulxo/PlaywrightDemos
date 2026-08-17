@@ -1,0 +1,8 @@
+[     760ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://www.automationpractice.pl/favicon.ico:0
+[    5229ms] [LOG] Prebid Integration: Initialized for sportsvot @ https://sportsvot.com/assets/js/prebid-native.js:16
+[    5229ms] [LOG] Strategy: Native ads via Prebid @ https://sportsvot.com/assets/js/prebid-native.js:17
+[    5229ms] [LOG] Prebid.js: Initializing for sportsvot @ https://sportsvot.com/assets/js/prebid-native.js:159
+[    5229ms] [LOG] Prebid.js initialized for sportsvot @ https://sportsvot.com/assets/js/prebid-native.js:152
+[    5349ms] [LOG] Lucide icons initialized successfully @ https://sportsvot.com/assets/js/index.js:35
+[    7120ms] [LOG] Injected 56 in-content banner ad(s) @ https://sportsvot.com/2026-fifa-world-cup-power-ranking:3048
+[    9346ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://t.dlserve.ai/collect/telemetry:0

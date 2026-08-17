@@ -1,0 +1,3 @@
+[     218ms] [ERROR] Failed to load resource: net::ERR_HTTP2_PROTOCOL_ERROR @ https://automationpractice.pl/favicon.ico:0
+[     413ms] [WARNING] No available adapters. @ https://automationpractice.pl/index.php:0
+[    4811ms] [WARNING] @babel/polyfill is loaded more than once on this page. This is probably not desirable/intended and may have consequences if different versions of the polyfills are applied sequentially. If you do need to load the polyfill more than once, use @babel/polyfill/noConflict instead to bypass the warning. @ https://pt-static5.jsmsat.com/npe/pu/lp22/script/lp22.74f43.js:0

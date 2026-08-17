@@ -1,0 +1,5 @@
+[    1849ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://opensource-demo.orangehrmlive.com/web/index.php/auth/login:0
+[    8397ms] [LOG] All inputs found: 3 @ :10
+[    8402ms] [LOG] Input 0: type=hidden, placeholder=, value=8272b6175751e529d81de21dac91b72a.n6vk4iAjBOtEtETk2iwV2IFdkCz2ryqeRBkZeVj7eCE.6sGx0Ul2NqcA4gHTrXRmnM0bpEiu-H3PcUlpDD2pHmms85zPEEY9uTT-fA, ariaLabel=null @ :12
+[    8404ms] [LOG] Input 1: type=text, placeholder=Username, value=, ariaLabel=null @ :12
+[    8404ms] [LOG] Input 2: type=password, placeholder=Password, value=, ariaLabel=null @ :12
