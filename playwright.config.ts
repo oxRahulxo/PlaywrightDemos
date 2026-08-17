@@ -56,14 +56,14 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: "setup",
-      testMatch: /.*\.setup\.ts/,
+      name: "setup", testMatch: /.*\.setup\.ts/,
     },
     {
       name: 'Google Chrome',
       dependencies: ['setup'],
       use: { 
-        ...devices['Desktop Chrome'], 
+        ...devices['Desktop Chrome'],
+        storageState: '.auth/customer02.json', 
         channel: 'chrome' /* Targets your locally installed chrome */
       },
     },
