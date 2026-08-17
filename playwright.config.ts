@@ -41,7 +41,7 @@ export default defineConfig({
     trace: 'on-first-retry',
     actionTimeout: 0, // Disable action timeout to allow long-running actions
     ignoreHTTPSErrors: false, // Ignore HTTPS errors for testing purposes
-    headless: false, // Run tests in headless mode for faster execution
+    headless: true, // Run tests in headless mode for faster execution
     /* options: 'retain-on-failure', 'on', 'off' */
     video: 'on', // Record video only on test failure
     /* options: 'off', 'on', 'only-on-failure' */
