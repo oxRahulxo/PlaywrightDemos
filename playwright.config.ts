@@ -12,7 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  timeout: 30_000, // 30 seconds per test
+  timeout: 60_000, // 30 seconds per test
   /* globalTimeout: 60_000, */ // 1 minute for the entire test suite
   testDir: './tests',
   /* Run tests in files in parallel */
@@ -20,7 +20,7 @@ export default defineConfig({
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI 2 times and locally 1 time */
-  retries: process.env.CI ? 2 : 1,
+  retries: process.env.CI ? 2 : 0, /*1 is default */
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */

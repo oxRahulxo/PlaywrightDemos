@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "cf_clearance",
-      "value": "Vg3cRMZAaNgLYwxD1JTM0Fx.GAMTMTuP2U6fIC7dudY-1787006910-1.2.1.1-FRZ1cyftsIns5PoMPEG5AF4ozcxnYMcdA_9JmYKDxLJiB3lUXeTYtmtATfO322VMDPdx7X3hpkti8LhROs.aFqSZQl6k1xQKW1O9ajq34Ofof5ZY.3HaDc0dOTk4KTcMVWl6A0yWYAb4wmwVj6EdZjjO2svesNMPkCoiKeDhQ.fGxFwFyE.KaFiQVyD1ZelI9VYSRBTzs3NodTjAzO_Q8dzt4yvlWvMy5IYFVlFlGXkTXNAoh.9JkPjMClRl_kn_f0sDaDwK8_xT9H_DEEbHj_tI7FISjg7optdq0C_kS_Mzsbn0Z8yzFxye10vBhKn5kdbbBmJ.7W3RhUNbLjYJap_eTl8SAcbAYiEEZUosEqU",
+      "value": "8EujMK7u5c5yrAIjclNn29XGRnh3qyqzoDELbnwdBso-1787008387-1.2.1.1-mR0tWwnZCS1vptMkkVxjcuKH737yJ.4yMLSLC0pUl8VvF3VnlL5G7paXZmXM3jD0ESoeerQf5utpShZrSH1LBY8ATPVqQycNRM08zv0dcFP2vyVGzLZj69RuqG9I2yO.Q6mHxYqJXyvHcelaxnDg1QmiFGBamGcobBQdua4QqSX.P0kD2MlawjIlcfFIclKm8bFfZVB3TFwsrbUALFIYchuI1kSsMy6a.OSrSNgm0u6u13Ua0UB8v3sHz0XUHPP5cq0VqOgdstipX37wkJ.T6ALDBW8TuwsdMtYIlTUuhQwVxvhF71QsnS8__Kqon6XS2hup.4FHNYiOL.ZWAc4ml4.hYz8WaO_4VFbNvzu.ARA",
       "domain": ".practicesoftwaretesting.com",
       "path": "/",
-      "expires": 1818542588.39092,
+      "expires": 1818544387.667129,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None",
@@ -19,7 +19,7 @@
       "localStorage": [
         {
           "name": "auth-token",
-          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5wcmFjdGljZXNvZnR3YXJldGVzdGluZy5jb20vdXNlcnMvbG9naW4iLCJpYXQiOjE3ODcwMDY5MTMsImV4cCI6MTc4NzAwNzIxMywibmJmIjoxNzg3MDA2OTEzLCJqdGkiOiJMUTU1aGppaU5yd0FsZWpRIiwic3ViIjoiMDFNMDhWVFI2WFdTQ0tHQjk3Rjc3Q0c4WTEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3Iiwicm9sZSI6InVzZXIifQ.BwRZ4F5UVy4Qc8cLAXG97m1I_aZ9GmgLFKjI-Zntqpo"
+          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5wcmFjdGljZXNvZnR3YXJldGVzdGluZy5jb20vdXNlcnMvbG9naW4iLCJpYXQiOjE3ODcwMDgzOTMsImV4cCI6MTc4NzAwODY5MywibmJmIjoxNzg3MDA4MzkzLCJqdGkiOiJZWVNDZGhYM0xvS2xKSkdzIiwic3ViIjoiMDFNMDhaOE4yVENKSFhNRVRSWjlHMUQ5TTEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3Iiwicm9sZSI6InVzZXIifQ.NKZcCNJaL9es0qq0bqfHFHs7vmMFDH2jav62ZO00Hg8"
         }
       ]
     }
