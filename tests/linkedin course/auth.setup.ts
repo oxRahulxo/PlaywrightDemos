@@ -6,10 +6,11 @@ setup('Create customer02 auth', async ({ page, context }) => {
   const customer02AuthFile = '.auth/customer02.json';
 
   await page.goto('https://practicesoftwaretesting.com/auth/login');
+  await page.waitForLoadState('networkidle');
   await (page.locator('[data-test="email"]')).fill(email);
   await (page.locator('[data-test="password"]')).fill(password);
   await page.locator('[data-test="login-submit"]').click();
-
+  await page.waitForLoadState('networkidle');
   await expect(page.locator('[data-test="nav-menu"]')).toContainText("Jack Howe");
 
   await page.context().storageState({ path: customer02AuthFile });
