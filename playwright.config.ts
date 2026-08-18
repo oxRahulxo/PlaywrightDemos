@@ -49,6 +49,10 @@ export default defineConfig({
       mode: 'on',
       fullPage: true,
     },
+    extraHTTPHeaders: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },  
 
     
   },
