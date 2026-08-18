@@ -60,10 +60,10 @@ export default defineConfig({
     },
     {
       name: 'Google Chrome',
-      dependencies: ['setup'],
+      /*dependencies: ['setup'],*/
       use: { 
         ...devices['Desktop Chrome'],
-        storageState: '.auth/customer02.json', 
+        /*storageState: '.auth/customer02.json',*/ 
         channel: 'chrome' /* Targets your locally installed chrome */
       },
     },
