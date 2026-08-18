@@ -6,7 +6,7 @@ setup('Create customer02 auth', async ({ page, context }) => {
   const customer02AuthFile = '.auth/customer02.json';
 
   await page.goto('https://practicesoftwaretesting.com/');
-  await page.waitForLoadState('networkidle');
+  await page.getByText("Sign in").waitFor({ state: 'visible', timeout: 30000 });
   await page.getByText("Sign in").click();
   await page.getByPlaceholder('Your email').fill(email);
   await page.getByPlaceholder('Your password').fill(password);
